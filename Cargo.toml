@@ -1,0 +1,14 @@
+[package]
+name = "monkey-type"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+fastrand = "2.1.0"
+image = { version = "0.25.1", default-features = false, features = ["png", "jpeg", "webp"] }
+lexopt = "0.3.0"
+ocrs = "0.8.0"
+rten = "0.10.0"
+rten-imageproc = "0.11.0"
+rten-tensor = "0.11.0"
